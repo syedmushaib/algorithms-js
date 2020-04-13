@@ -2,10 +2,10 @@
 function sortArry (arr) {
   let sortedArr = [];
 
-  for (var i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     let min = arr[0];
 
-    for (var j = 0; j < arr.length; j++) {
+    for (let j = 0; j < arr.length; j++) {
       if (min > arr[j] && arr[j] !== null) {
         min = arr[j];
       } else if (min === null && arr[j] !== null) {
